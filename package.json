@@ -1,0 +1,23 @@
+{
+  "name": "sample-webpack-app",
+  "version": "1.0.0",
+  "description": "Sample Webpack App with Vanilla JS",
+  "main": "index.js",
+  "repository": "https://github.com/navetisyan/sample-webpack-app.git",
+  "author": "Narine Avetisyan <avetisyannarine@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  }
+}
